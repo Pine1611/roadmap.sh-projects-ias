@@ -28,6 +28,8 @@ cd backend_projects/01-task-tracker
 npm install
 # Install CLI to global
 npm install --global
+# Run dev
+npm run dev
 ```
 
 When install `global`, the CLI created in `%APPDATA%\Roaming\npm\%node_module%` and can use `task-cli` in Terminal(VS) or CMD(Windows)<sup>[notes](#notes)</sup>

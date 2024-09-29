@@ -1,9 +1,5 @@
-import { error } from "console";
 import * as fs from "./task-utils.js";
 import * as rl from "readline";
-import { resolve } from "path";
-import { stdin, stdout } from "process";
-import { config } from "dotenv";
 
 // First step for init app. This will create the data folder if it doesn't exist!
 fs.init();
@@ -152,7 +148,7 @@ export function createTask(_taskTitle = null) {
 /**
  * @name updateTask(param)
  * @desc Update status or title task by task ID,
- * @param [taskID, _]
+ * @param [taskID, _dataUpdate]
  */
 export function updateTask(_taskID, _dataUpdate = null) {
     try {
