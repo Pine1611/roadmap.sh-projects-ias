@@ -2,7 +2,7 @@
 
 This is simple **Command Line Interface (CLI)** app that help you to track and manage your to-do-list from the terminal. You can insert, update, delete and view to do list. As well as search tasks based on their status. Tasks stored in a JSON file (`tasks.json`), which will be automatically created in folder project.
 
-Project based on [CLI Task Tracker][https://roadmap.sh/projects/task-tracker] from [Roadmap Ideas Backend Projects][https://roadmap.sh/projects?g=backend]
+Project based on [CLI Task Tracker][link-1] from [Roadmap Ideas Backend Projects][link-2]
 
 ## Features
 
@@ -72,3 +72,14 @@ task-cli delete [id]
 ## License
 
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Author
+
+Iam Pine
+
+---
+
+Happy task tracking!
+
+[link-1]: https://roadmap.sh/projects/task-tracker
+[link-2]: https://roadmap.sh/projects?g=backend
