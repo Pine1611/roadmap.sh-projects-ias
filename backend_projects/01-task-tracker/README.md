@@ -28,7 +28,7 @@ npm install
 npm install --global
 ```
 
-When install `global`, The CLI created in %APPDATA%\Roaming\npm\%node_module% and can use `task-cli` in Terminal(VS) or CMD(Windows)<sup>[notes](#notes)</sup>
+When install `global`, the CLI created in `%APPDATA%\Roaming\npm\%node_module%` and can use `task-cli` in Terminal(VS) or CMD(Windows)<sup>[notes](#notes)</sup>
 
 ### Useage
 
@@ -54,12 +54,12 @@ task-cli view [status]
 # Create a new task with the title
 task-cli create
 # Update task's title by id
-task-cli update id
+task-cli update [id]
 # Update status for task by id
-task-cli mark-in-progress id
-task-cli mark-done id
+task-cli mark-in-progress [id]
+task-cli mark-done [id]
 # Delete task by id
-task-cli delete id
+task-cli delete [id]
 ```
 
 ## Notes

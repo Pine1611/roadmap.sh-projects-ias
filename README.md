@@ -4,7 +4,7 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 
 ## [Frontend Projects][Frontend Projects]
 
--   [x] [Single-Page CV][demo-single-page-cv] [[ref][ref-single-page-cv]]
+-   [ ] [Single-Page CV][demo-single-page-cv] [[ref][ref-single-page-cv]]
 
 ## [Backend Projects][Backend Projects] [[ref][ref-backend]]
 
