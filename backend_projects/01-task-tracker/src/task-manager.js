@@ -47,7 +47,10 @@ export function viewTasks(_filter = null) {
     if (filtertTasks.length === 0) {
         console.log(`You have no tasks for [${_filter}]`);
     } else {
-        if (_filter !== null) console.log(`You have total [${totalFilterTasks}] for [${_filter}]`);
+        if (_filter !== null)
+            console.log(
+                `You have total [${totalFilterTasks}] for [${_filter}]`
+            );
 
         filtertTasks.forEach((task) => {
             console.log(
@@ -70,7 +73,8 @@ export function createTask(_taskTitle = null) {
             output: process.stdout,
         });
         // init confirm question
-        const confirm = (str) => new Promise((resolve) => readlineIO.question(str, resolve));
+        const confirm = (str) =>
+            new Promise((resolve) => readlineIO.question(str, resolve));
 
         // init steps create task
         const stepCreate = {
@@ -88,7 +92,9 @@ export function createTask(_taskTitle = null) {
                 if (_taskTitle === null) {
                     const answer = await confirm("Please enter task's title: ");
                     if (String(answer).trim().length === 0 || answer === null) {
-                        return stepCreate.error("Task's title cannot empty, please try again!");
+                        return stepCreate.error(
+                            "Task's title cannot empty, please try again!"
+                        );
                     } else {
                         return stepCreate.process(taskID, answer, tasks);
                     }
@@ -118,7 +124,9 @@ export function createTask(_taskTitle = null) {
                     // write file
                     fs.writeFileSync(saveData);
 
-                    console.log(`Task created successfully (ID: ${newTask.id})`);
+                    console.log(
+                        `Task created successfully (ID: ${newTask.id})`
+                    );
                 } catch (error) {
                     console.log(error);
                 }
@@ -126,7 +134,9 @@ export function createTask(_taskTitle = null) {
             },
             error: async (_error) => {
                 console.log(_error);
-                const answer = await confirm("Do you want to enter task's title again? [Y/N] ");
+                const answer = await confirm(
+                    "Do you want to enter task's title again? [Y/N] "
+                );
                 if (answer.toLowerCase() == "y") {
                     stepCreate.prepare();
                 } else {
@@ -158,7 +168,8 @@ export function updateTask(_taskID, _dataUpdate = null) {
             input: process.stdin,
             output: process.stdout,
         });
-        const confirm = (str) => new Promise((resolve) => readlineIO.question(str, resolve));
+        const confirm = (str) =>
+            new Promise((resolve) => readlineIO.question(str, resolve));
 
         // setup steps update task
         const stepsUpdate = {
@@ -170,27 +181,39 @@ export function updateTask(_taskID, _dataUpdate = null) {
                 findTask = findTaskByID(_taskID);
                 // check task is exist
                 if (!findTask.isExist) {
-                    return stepsUpdate.error(`Can not find any task with task ID: [${_taskID}], please try again!`);
+                    return stepsUpdate.error(
+                        `Can not find any task with task ID: [${_taskID}], please try again!`
+                    );
                 }
 
                 if (!_dataUpdate) {
-                    const answer = await confirm(`Please enter new title for task ID [${_taskID}]: `);
+                    const answer = await confirm(
+                        `Please enter new title for task ID [${_taskID}]: `
+                    );
                     if (String(answer).trim() === "" || answer === null) {
-                        return stepsUpdate.error("The task's title can't empty. Please try again!");
+                        return stepsUpdate.error(
+                            "The task's title can't empty. Please try again!"
+                        );
                     } else {
                         _dataUpdate = { taskTitle: answer };
                     }
                 }
 
-                return stepsUpdate.process(findTask.taskIndex, findTask.currentData, _dataUpdate);
+                return stepsUpdate.process(
+                    findTask.taskIndex,
+                    findTask.currentData,
+                    _dataUpdate
+                );
             },
             process: async (_taskIndex, _tasks, _dataUpdate) => {
                 // process update here
                 let currentDate = new Date().toLocaleString();
 
                 // setup task's data changed
-                if (_dataUpdate.taskTitle) _tasks[_taskIndex].title = _dataUpdate.taskTitle;
-                if (_dataUpdate.taskStatus) _tasks[_taskIndex].status = _dataUpdate.taskStatus;
+                if (_dataUpdate.taskTitle)
+                    _tasks[_taskIndex].title = _dataUpdate.taskTitle;
+                if (_dataUpdate.taskStatus)
+                    _tasks[_taskIndex].status = _dataUpdate.taskStatus;
                 _tasks[_taskIndex].updatedAt = currentDate;
 
                 // setup data for write file
@@ -201,9 +224,17 @@ export function updateTask(_taskID, _dataUpdate = null) {
                 fs.writeFileSync(saveData);
 
                 // return message success
-                console.log(`\tTask [${_tasks[_taskIndex].id}] has been updated!`);
-                _dataUpdate.taskStatus ? console.log(`\tStatus: [${_dataUpdate.taskStatus}]`) : "";
-                _dataUpdate.taskTitle ? console.log(`\tTitle changed to: [${_dataUpdate.taskTitle}]`) : "";
+                console.log(
+                    `\tTask [${_tasks[_taskIndex].id}] has been updated!`
+                );
+                _dataUpdate.taskStatus
+                    ? console.log(`\tStatus: [${_dataUpdate.taskStatus}]`)
+                    : "";
+                _dataUpdate.taskTitle
+                    ? console.log(
+                          `\tTitle changed to: [${_dataUpdate.taskTitle}]`
+                      )
+                    : "";
 
                 return stepsUpdate.end();
             },
@@ -239,7 +270,8 @@ export function deleteTask(_taskID) {
             output: process.stdout,
         });
         // setup question
-        const question = (str) => new Promise((resolve) => readlineIO.question(str, resolve));
+        const question = (str) =>
+            new Promise((resolve) => readlineIO.question(str, resolve));
 
         // setup steps for delete task by task ID
         const stepsDelete = {
@@ -253,10 +285,14 @@ export function deleteTask(_taskID) {
                 // process
                 if (!findTask.isExist) {
                     // invalid task's id
-                    return stepsDelete.error("Invalid task ID. Please try again!");
+                    return stepsDelete.error(
+                        "Invalid task ID. Please try again!"
+                    );
                 } else {
                     // confirm for delete task
-                    const answer = await question("Are you sure want to delete this task? [Y/N] ");
+                    const answer = await question(
+                        "Are you sure want to delete this task? [Y/N] "
+                    );
                     if (String(answer).trim().toLowerCase() === "y") {
                         return stepsDelete.process();
                     }
