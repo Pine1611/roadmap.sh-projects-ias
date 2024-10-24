@@ -2,7 +2,7 @@
 
 This is simple application to manage your finances. The application allow user to add, update, delete and view their expense everyday. Also can provide summary of the expense. Expenses data will stored in a JSON files, which will be automatically created in folder project.
 
-Project based on [Expense Tracker][link-1] from [Roadmap Ideas Backend Projects][link-2]
+Project based on [Expense Tracker](https://roadmap.sh/projects/expense-tracker) from [Roadmap Ideas Backend Projects][link-2]
 
 ## Features
 
