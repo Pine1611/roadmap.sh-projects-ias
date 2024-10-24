@@ -9,7 +9,7 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 ## [Backend Projects][Backend Projects] [[ref][ref-backend]]
 
 -   [x] [Task Tracker CLI][Task Tracker CLI] [[ref][ref-task-tracker-cli]]
--   [x] [Expense Tracker CLI][Task Tracker CLI] [[ref][ref-expense-tracker-cli]]
+-   [x] [Expense Tracker CLI][Expense Tracker CLI] [[ref][ref-expense-tracker-cli]]
 
 [Frontend Projects]: https://roadmap.sh/frontend
 [ref-single-page-cv]: https://roadmap.sh/projects/single-page-cv
