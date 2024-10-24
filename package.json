@@ -1,0 +1,17 @@
+{
+    "name": "sh-projects-ias",
+    "version": "1.0.0",
+    "description": "Packages for using all in roadmap.sh projects",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Iam Pine",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^22.7.4",
+        "commander": "^12.1.0",
+        "dotenv": "^16.4.5",
+        "cli-table": "^0.3.11"
+    }
+}
