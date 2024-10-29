@@ -21,7 +21,7 @@
     ],
     "author": "Iam Pine",
     "license": "MIT",
-    "dependencies": {
+    "devDependencies": {
         "dotenv": "^16.4.5"
     }
 }
