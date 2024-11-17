@@ -14,21 +14,22 @@ See my demo at [here][link-to-demo]
 
 1. [x] Length Converter - DONE 🎉
 2. [x] Temperature Converter - DONE 🎉
-3. [ ] Weight Converter - ONGOING
+3. [ ] Volume (Capacity) Converter - ONGOING
+4. [ ] Weight (Mass) Converter - ONGOING
 
 ## Getting started
 
 ### Prerequisites
 
--   1.**Node.js** Installed on your machine (version 18 or higher).
--   2.**Express** Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js.
--   4.**Other Packages Support** Packages support: DotENV, CORS, Helmet, Nodemon.
+-   **Node.js** Installed on your machine (version 18 or higher).
+-   **Express** Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js.
+-   **Other Packages Support** Packages support: DotENV, CORS, Helmet, Nodemon.
 
 ### Installation
 
--   1.**Clone the reposity** or **Copy the folder project to your root**
--   2.**Navigate to the project directory**
--   3.**Install NPM**
+-   **Clone the reposity** or **Copy the folder project to your root**
+-   **Navigate to the project directory**
+-   **Install NPM**
 
 ```bash
 cd backend_projects/03-unit-converter
@@ -43,13 +44,13 @@ npm run start
 
 Conversion Units of Measurement through APIs. If you want to see the APIs, please start the server and follow by API's links.
 
--   1.**Convert Unit Measurement**:
+-   **Convert Unit Measurement**:
 
 ```bash
 //api/converter/:unitSystem/:from-:to/:value
 ```
 
--   2.**Get the symbols of unit system**
+-   **Get the symbols of unit system**
 
 ```bash
 //api/symbols/:unitSystem
