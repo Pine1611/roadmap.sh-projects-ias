@@ -1,3 +1,5 @@
-export const notFound = (_req, res) => {
-    return res.status(200).json({ message: "Route doesn't exist!" });
+import { createCustomError } from "../utils/customError.mjs";
+
+export const notFound = (_req, res, next) => {
+    return next(createCustomError("invalid_route", 404));
 };

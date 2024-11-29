@@ -1,10 +1,11 @@
 export class CustomError extends Error {
-    constructor(statusCode, message) {
+    constructor(status, code, message) {
         super(message);
-        this.statusCode = statusCode;
+        this.status = status;
+        this.code = code;
     }
 }
 
-export const createCustomError = (statusCode, message) => {
-    return new CustomError(statusCode, message);
+export const createCustomError = (status, code) => {
+    return new CustomError(status, code);
 };

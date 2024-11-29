@@ -2,17 +2,17 @@ import { ERROR_STRINGS } from "../configs/errors.config.mjs";
 import { CustomError } from "../utils/customError.mjs";
 
 export const handleError = async (error, _req, res, _next) => {
-    const statusCode = error.statusCode || 500;
+    const code = error.code || 500;
     if (error instanceof CustomError) {
         return res.status(200).json({
-            status: error.message,
-            code: error.statusCode,
-            message: ERROR_STRINGS[error.message],
+            status: error.status,
+            code: error.code,
+            message: ERROR_STRINGS[error.status],
         });
     }
-    return res.status(statusCode).json({
+    return res.status(code).json({
         status: "error",
         code: 500,
-        message: ERROR_STRINGS[error.message],
+        message: ERROR_STRINGS["default_error"],
     });
 };

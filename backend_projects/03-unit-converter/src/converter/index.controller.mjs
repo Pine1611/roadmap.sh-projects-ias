@@ -1,6 +1,7 @@
 import { DECIMAL_DIGITS, SYSTEMS_OF_MEASUREMENT } from "../configs/global.config.mjs";
 import { tryCatchWrapper } from "../middlewares/tryCatchWrapper.mjs";
 import formatResult from "../utils/formatResult.mjs";
+import { createCustomError } from "../utils/customError.mjs";
 
 import { LENGTH_SYSTEM_V1 } from "./length/length.model.mjs";
 import { execLengthConverter } from "./length/length.converter.mjs";
@@ -16,10 +17,10 @@ export const getConverter = tryCatchWrapper(async (req, res, next) => {
     } else if (unitSystem === SYSTEMS_OF_MEASUREMENT.TEMPERATURE) {
         valueConverted = formatResult(execTemperatureConverter(dataConvertValid), DECIMAL_DIGITS);
     }
-    return res.status(200).json({ valueConverted: valueConverted, data: dataConvertValid });
+    return res.status(200).json({ valueConverted: valueConverted });
 });
 
-export const getSymbols = tryCatchWrapper(async (req, res) => {
+export const getSymbols = tryCatchWrapper(async (req, res, next) => {
     const { unitSystem } = req.params;
     let unitSymbols = [];
     switch (unitSystem.toString().toLowerCase().trim()) {
@@ -36,11 +37,11 @@ export const getSymbols = tryCatchWrapper(async (req, res) => {
             return res.status(200).json({ symbols: unitSymbols });
 
         default:
-            return res.status(200).json({ message: "Invalid system!" });
+            return next(createCustomError("invalid_measurement", 422));
     }
 });
 
-export const getMeasurement = tryCatchWrapper(async (req, res) => {
+export const getMeasurement = tryCatchWrapper(async (_req, res) => {
     const measurement = Object.values(SYSTEMS_OF_MEASUREMENT);
     return res.status(200).json({ measurement: measurement });
 });

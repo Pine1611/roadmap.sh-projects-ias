@@ -26,7 +26,7 @@ export const validateUnitSystem = tryCatchWrapper(async (req, res, next) => {
 
     // value convert check valid
     if (isNaN(valueConvert) || valueConvert === "" || valueConvert < 0) {
-        return next(createCustomError(422, "invalid_number"));
+        return next(createCustomError("invalid_number", 422));
     } else {
         dataConvertValid.valueConvert = Number(valueConvert);
     }
@@ -38,7 +38,7 @@ export const validateUnitSystem = tryCatchWrapper(async (req, res, next) => {
             unitsDetail.to = findWithArray(LENGTH_SYSTEM_V1, "symbol", String(toUnit).trim());
 
             // return error if units not exist
-            if (unitsDetail.from === -1 || unitsDetail.to === -1) return next(createCustomError(422, "invalid_unit"));
+            if (unitsDetail.from === -1 || unitsDetail.to === -1) return next(createCustomError("invalid_unit", 422));
 
             // class and method check
             // check class
@@ -82,7 +82,7 @@ export const validateUnitSystem = tryCatchWrapper(async (req, res, next) => {
             unitsDetail.to = findWithArray(TEMPERATURE_SYSTEM, "symbol", String(toUnit).trim());
 
             // return error if units not exist
-            if (unitsDetail.from === -1 || unitsDetail.to === -1) return next(createCustomError(422, "invalid_unit"));
+            if (unitsDetail.from === -1 || unitsDetail.to === -1) return next(createCustomError("invalid_unit", 422));
 
             if (unitsDetail.from.symbol === "C") {
                 dataConvertValid.classConverter = "CelsiusConverter";
@@ -125,7 +125,7 @@ export const validateUnitSystem = tryCatchWrapper(async (req, res, next) => {
             break;
 
         default:
-            next(createCustomError(422, "invalid_measurement"));
+            next(createCustomError("invalid_measurement", 422));
             break;
     }
     // setup units detail data for request
