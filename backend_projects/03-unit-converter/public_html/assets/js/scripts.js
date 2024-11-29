@@ -204,12 +204,15 @@ class DynamicForm {
             })
             .then((data) => {
                 const msgError = document.getElementById("invalidValueConvert");
+                const inputConvert = document.getElementById("valueConvert");
                 // const result = document.getElementById("valueConverted"); => (17/11/2024) move to static variable for call in the init system of measuremnt
                 if (!data.status) {
                     DynamicForm.RESULT.innerHTML = data.valueConverted;
                     msgError.classList.remove("form__error-msg--show");
+                    inputConvert.classList.remove("form__error");
                 } else {
                     msgError.classList.add("form__error-msg--show");
+                    inputConvert.classList.add("form__error");
                     msgError.innerHTML = data.message;
                 }
             });
