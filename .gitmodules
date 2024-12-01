@@ -1,0 +1,6 @@
+[submodule "frontend-projects"]
+	path = frontend-projects
+	url = https://github.com/Pine1611/frontend-projects.git
+[submodule "backend-projects"]
+	path = backend-projects
+	url = git@github.com:Pine1611/backend-projects.git
