@@ -1,5 +1,6 @@
 # custom ignore
 task-tracker-data/
+data-cli/
 tracklogs.md
 
 # Logs
