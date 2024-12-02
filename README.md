@@ -5,10 +5,10 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 ## [Frontend Projects][Frontend Projects]
 
 -   [ ] [Single Page CV][demo-single-page-cv] [[ref][ref-single-page-cv]] - ONGOING 🎪
--   [ ] [Basic HTML Website][demo-basic-html-website] [[ref][ref-basic-html-website]] - COMMING SOON 🚩
--   [ ] [Personal Portfolio][demo-personal-portfolio] [[ref][ref-personal-portfolio]] - COMMING SOON 🚩
--   [ ] [Changelog Component][demo-changelog-component] [[ref][ref-changelog-component]] - COMMING SOON 🚩
--   [ ] [Testimonial Cards][demo-testimonial-cards] [[ref][ref-testimonial-cards]] - COMMING SOON 🚩
+-   [ ] [Basic HTML Website][demo-basic-html-website] [[ref][ref-basic-html-website]] - COMING SOON 🚩
+-   [ ] [Personal Portfolio][demo-personal-portfolio] [[ref][ref-personal-portfolio]] - COMING SOON 🚩
+-   [ ] [Changelog Component][demo-changelog-component] [[ref][ref-changelog-component]] - COMING SOON 🚩
+-   [ ] [Testimonial Cards][demo-testimonial-cards] [[ref][ref-testimonial-cards]] - COMING SOON 🚩
 
 ## [Backend Projects][Backend Projects] [[ref][ref-backend]]
 
