@@ -6,9 +6,14 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 
 -   [x] [Single Page CV][demo-single-page-cv] [[ref][ref-single-page-cv]] - DONE 🎉
 -   [x] [Basic HTML Website][demo-basic-html-website] [[ref][ref-basic-html-website]] - DONE 🎉
--   [ ] [Personal Portfolio][demo-personal-portfolio] [[ref][ref-personal-portfolio]] - ONGOING 🎪
--   [ ] [Changelog Component][demo-changelog-component] [[ref][ref-changelog-component]] - COMING SOON 🚩
--   [ ] [Testimonial Cards][demo-testimonial-cards] [[ref][ref-testimonial-cards]] - COMING SOON 🚩
+-   [x] [Personal Portfolio][demo-personal-portfolio] [[ref][ref-personal-portfolio]] - DONE 🎉
+-   [x] [Changelog Component][demo-changelog-component] [[ref][ref-changelog-component]] - DONE 🎉
+-   [x] [Testimonial Cards][demo-testimonial-cards] [[ref][ref-testimonial-cards]] - DONE 🎉
+-   [x] [Datepicker UI][demo-datepicker-ui] [[ref][ref-datepicker-ui]] - DONE 🎉
+-   [ ] [Accessible Form UI][demo-accessible-form-ui] [[ref][ref-accessible-form-ui]] - ONGOING 🎪
+-   [x] [Image Grid Layout][demo-image-grid] [[ref][ref-image-grid]] - DONE 🎉
+-   [ ] [Tooltip UI][demo-tooltip-ui] [[ref][ref-tooltip-ui]] - COMMING SOON 🚩
+-   [ ] [Simple Tabs][demo-simple-tabs] [[ref][ref-simple-tabs]] - COMMING SOON 🚩
 
 ## [Backend Projects][Backend Projects] [[ref][ref-backend]]
 
@@ -23,12 +28,22 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 [demo-single-page-cv]: https://pine1611.github.io/frontend-projects/01-single-page-cv/public
 [ref-basic-html-website]: https://roadmap.sh/projects/basic-html-website
 [demo-basic-html-website]: https://pine1611.github.io/frontend-projects/02-basic-html-website/public
-[ref-personal-portfolio]: https://roadmap.sh/projects/personal-portfolio
-[demo-personal-portfolio]: https://pine1611.github.io/frontend-projects/
+[ref-personal-portfolio]: https://roadmap.sh/projects/portfolio-website
+[demo-personal-portfolio]: https://pine1611.github.io/frontend-projects/03-personal-portfolio/public
 [ref-changelog-component]: https://roadmap.sh/projects/changelog-component
-[demo-changelog-component]: https://pine1611.github.io/frontend-projects/
-[ref-testimonial-cards]: https://roadmap.sh/projects/basic-html-website
-[demo-testimonial-cards]: https://pine1611.github.io/frontend-projects/
+[demo-changelog-component]: https://pine1611.github.io/frontend-projects/04-changelog-component/public
+[ref-testimonial-cards]: https://roadmap.sh/projects/testimonial-cards
+[demo-testimonial-cards]: https://pine1611.github.io/frontend-projects/05-testimonial-cards/public
+[ref-datepicker-ui]: https://roadmap.sh/projects/datepicker-ui
+[demo-datepicker-ui]: https://pine1611.github.io/frontend-projects/06-datepicker-ui/public
+[ref-accessible-form-ui]: https://roadmap.sh/projects/accessible-form-ui
+[demo-accessible-form-ui]: https://pine1611.github.io/frontend-projects/
+[ref-image-grid]: https://roadmap.sh/projects/image-grid
+[demo-image-grid]: https://pine1611.github.io/frontend-projects/08-image-grid-layout/public
+[ref-tooltip-ui]: https://roadmap.sh/projects/tooltip-ui
+[demo-tooltip-ui]: https://pine1611.github.io/frontend-projects/
+[ref-simple-tabs]: https://roadmap.sh/projects/simple-tabs
+[demo-simple-tabs]: https://pine1611.github.io/frontend-projects/
 [Backend Projects]: https://github.com/Pine1611/backend-projects/blob/main/README.md
 [ref-backend]: https://roadmap.sh/backend/projects
 [Task Tracker CLI]: https://github.com/Pine1611/backend-projects/blob/main/01-task-tracker-cli/README.md
