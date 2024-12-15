@@ -4,27 +4,39 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 
 ## [Frontend Projects][Frontend Projects] [[ref][ref-frontend]] / [[full-demo][full-demo]]
 
--   [x] [Single Page CV][demo-single-page-cv] [[ref][ref-single-page-cv]] - DONE 🎉
--   [x] [Basic HTML Website][demo-basic-html-website] [[ref][ref-basic-html-website]] - DONE 🎉
--   [x] [Personal Portfolio][demo-personal-portfolio] [[ref][ref-personal-portfolio]] - DONE 🎉
--   [x] [Changelog Component][demo-changelog-component] [[ref][ref-changelog-component]] - DONE 🎉
--   [x] [Testimonial Cards][demo-testimonial-cards] [[ref][ref-testimonial-cards]] - DONE 🎉
--   [x] [Datepicker UI][demo-datepicker-ui] [[ref][ref-datepicker-ui]] - DONE 🎉
--   [x] [Accessible Form UI][demo-accessible-form-ui] [[ref][ref-accessible-form-ui]] - DONE 🎉
--   [x] [Image Grid Layout][demo-image-grid] [[ref][ref-image-grid]] - DONE 🎉
--   [x] [Tooltip UI][demo-tooltip-ui] [[ref][ref-tooltip-ui]] - DONE 🎉
--   [x] [Simple Tabs][demo-simple-tabs] [[ref][ref-simple-tabs]] - DONE 🎉
--   [x] [Cookie Consent][demo-cookie-consent] [[ref][ref-cookie-consent]] - DONE 🎉
--   [x] [Restricted Textarea][demo-restricted-textarea] [[ref][ref-restricted-textarea]] - DONE 🎉
--   [x] [Accordion][demo-accordion] [[ref][ref-accordion]] - DONE 🎉
--   [x] [Age Calculator][demo-age-calculator] [[ref][ref-age-calculator]] - DONE 🎉
--   [ ] [Flash Cards][demo-flash-cards] [[ref][ref-flash-cards]] - ONGOING 🎪
+|      🚩      |   🎪    |  🎉  |
+| :----------: | :-----: | :--: |
+| Comming Soon | Ongoing | Done |
+
+| 🌱 Beginner                                                                         | 🍃 Intermediate                                                                         | 🍁 Advanced                                                                |
+| :---------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- | :------------------------------------------------------------------------- |
+| 🎉 [Single Page CV][demo-single-page-cv] [[ref][ref-single-page-cv]]                | 🎪 [Custom Dropdown][demo-custom-dropdown] [[ref][ref-custom-dropdown]]                 | 🚩 [24hr Story Feature][demo-stories-feature] [[ref][ref-stories-feature]] |
+| 🎉 [Basic HTML Website][demo-basic-html-website] [[ref][ref-basic-html-website]]    | 🚩 [Task Tracker][demo-task-tracker-js] [[ref][ref-task-tracker-js]]                    |                                                                            |
+| 🎉 [Personal Portfolio][demo-personal-portfolio] [[ref][ref-personal-portfolio]]    | 🚩 [GH Random Repo][demo-github-random-repo] [[ref][ref-github-random-repo]]            |                                                                            |
+| 🎉 [Changelog Component][demo-changelog-component] [[ref][ref-changelog-component]] | 🚩 [Reddit Client][demo-reddit-client] [[ref][ref-reddit-client]]                       |                                                                            |
+| 🎉 [Testimonial Cards][demo-testimonial-cards] [[ref][ref-testimonial-cards]]       | 🚩 [Temperature Convert][demo-temperature-converter] [[ref][ref-temperature-converter]] |                                                                            |
+| 🎉 [Datepicker UI][demo-datepicker-ui] [[ref][ref-datepicker-ui]]                   | 🚩 [Pomodoro Timer][demo-pomodoro-timer] [[ref][ref-pomodoro-timer]]                    |                                                                            |
+| 🎉 [Accessible Form UI][demo-accessible-form-ui] [[ref][ref-accessible-form-ui]]    | 🚩 [Quiz App][demo-quiz-app] [[ref][ref-quiz-app]]                                      |                                                                            |
+| 🎉 [Image Grid Layout][demo-image-grid] [[ref][ref-image-grid]]                     | 🚩 [Weather Web App][demo-weather-app] [[ref][ref-weather-app]]                         |                                                                            |
+| 🎉 [Tooltip UI][demo-tooltip-ui] [[ref][ref-tooltip-ui]]                            |                                                                                         |                                                                            |
+| 🎉 [Simple Tabs][demo-simple-tabs] [[ref][ref-simple-tabs]]                         |                                                                                         |                                                                            |
+| 🎉 [Cookie Consent][demo-cookie-consent] [[ref][ref-cookie-consent]]                |                                                                                         |                                                                            |
+| 🎉 [Restricted Textarea][demo-restricted-textarea] [[ref][ref-restricted-textarea]] |                                                                                         |                                                                            |
+| 🎉 [Accordion][demo-accordion] [[ref][ref-accordion]]                               |                                                                                         |                                                                            |
+| 🎉 [Age Calculator][demo-age-calculator] [[ref][ref-age-calculator]]                |                                                                                         |                                                                            |
+| 🎉 [Flash Cards][demo-flash-cards] [[ref][ref-flash-cards]]                         |                                                                                         |                                                                            |
 
 ## [Backend Projects][Backend Projects] [[ref][ref-backend]]
 
--   [x] [Task Tracker CLI][Task Tracker CLI] [[ref][ref-task-tracker-cli]] - DONE 🎉
--   [x] [Expense Tracker CLI][Expense Tracker CLI] [[ref][ref-expense-tracker-cli]] - DONE 🎉
--   [ ] [Unit Converter][Unit Converter] [[ref][ref-unit-converter]] - ONGOING 🎪
+|      🚩      |   🎪    |  🎉  |
+| :----------: | :-----: | :--: |
+| Comming Soon | Ongoing | Done |
+
+| 🌱 Beginner                                                                    | 🍃 Intermediate | 🍁 Advanced |
+| :----------------------------------------------------------------------------- | :-------------- | :---------- |
+| 🎉 [Task Tracker CLI][Task Tracker CLI] [[ref][ref-task-tracker-cli]]          |                 |             |
+| 🎉 [Expense Tracker CLI][Expense Tracker CLI] [[ref][ref-expense-tracker-cli]] |                 |             |
+| 🎪 [Unit Converter][Unit Converter] [[ref][ref-unit-converter]]                |                 |             |
 
 [Frontend Projects]: https://github.com/Pine1611/frontend-projects/blob/main/README.md
 [ref-frontend]: https://roadmap.sh/frontend/projects
@@ -58,7 +70,25 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 [ref-age-calculator]: https://roadmap.sh/projects/age-calculator
 [demo-age-calculator]: https://pine1611.github.io/frontend-projects/14-age-calculator/public
 [ref-flash-cards]: https://roadmap.sh/projects/flash-cards
-[demo-flash-cards]: https://pine1611.github.io/frontend-projects/
+[demo-flash-cards]: https://pine1611.github.io/frontend-projects/15-flash-cards/public
+[ref-custom-dropdown]: https://roadmap.sh/projects/custom-dropdown
+[demo-custom-dropdown]: https://pine1611.github.io/frontend-projects/
+[ref-task-tracker-js]: https://roadmap.sh/projects/task-tracker-js
+[demo-task-tracker-js]: https://pine1611.github.io/frontend-projects/
+[ref-github-random-repo]: https://roadmap.sh/projects/github-random-repo
+[demo-github-random-repo]: https://pine1611.github.io/frontend-projects/
+[ref-reddit-client]: https://roadmap.sh/projects/reddit-client
+[demo-reddit-client]: https://pine1611.github.io/frontend-projects/
+[ref-temperature-converter]: https://roadmap.sh/projects/temperature-converter
+[demo-temperature-converter]: https://pine1611.github.io/frontend-projects/
+[ref-pomodoro-timer]: https://roadmap.sh/projects/pomodoro-timer
+[demo-pomodoro-timer]: https://pine1611.github.io/frontend-projects/
+[ref-quiz-app]: https://roadmap.sh/projects/quiz-app
+[demo-quiz-app]: https://pine1611.github.io/frontend-projects/
+[ref-weather-app]: https://roadmap.sh/projects/weather-app
+[demo-weather-app]: https://pine1611.github.io/frontend-projects/
+[ref-stories-feature]: https://roadmap.sh/projects/stories-feature
+[demo-stories-feature]: https://pine1611.github.io/frontend-projects/
 [Backend Projects]: https://github.com/Pine1611/backend-projects/blob/main/README.md
 [ref-backend]: https://roadmap.sh/backend/projects
 [Task Tracker CLI]: https://github.com/Pine1611/backend-projects/blob/main/01-task-tracker-cli/README.md
