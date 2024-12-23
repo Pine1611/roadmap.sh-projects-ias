@@ -15,9 +15,9 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 | 🎉 [Personal Portfolio][demo-personal-portfolio] [[ref][ref-personal-portfolio]]    | 🎉 [GH Random Repo][demo-github-random-repo] [[ref][ref-github-random-repo]]            |                                                                            |
 | 🎉 [Changelog Component][demo-changelog-component] [[ref][ref-changelog-component]] | 🎉 [Reddit Client][demo-reddit-client] [[ref][ref-reddit-client]]                       |                                                                            |
 | 🎉 [Testimonial Cards][demo-testimonial-cards] [[ref][ref-testimonial-cards]]       | 🎉 [Temperature Convert][demo-temperature-converter] [[ref][ref-temperature-converter]] |                                                                            |
-| 🎉 [Datepicker UI][demo-datepicker-ui] [[ref][ref-datepicker-ui]]                   | 🚩 [Pomodoro Timer][demo-pomodoro-timer] [[ref][ref-pomodoro-timer]]                    |                                                                            |
+| 🎉 [Datepicker UI][demo-datepicker-ui] [[ref][ref-datepicker-ui]]                   | 🎪 [Pomodoro Timer][demo-pomodoro-timer] [[ref][ref-pomodoro-timer]]                    |                                                                            |
 | 🎉 [Accessible Form UI][demo-accessible-form-ui] [[ref][ref-accessible-form-ui]]    | 🎉 [Quiz App][demo-quiz-app] [[ref][ref-quiz-app]]                                      |                                                                            |
-| 🎉 [Image Grid Layout][demo-image-grid] [[ref][ref-image-grid]]                     | 🎪 [Weather Web App][demo-weather-app] [[ref][ref-weather-app]]                         |                                                                            |
+| 🎉 [Image Grid Layout][demo-image-grid] [[ref][ref-image-grid]]                     | 🎉 [Weather Web App][demo-weather-app] [[ref][ref-weather-app]]                         |                                                                            |
 | 🎉 [Tooltip UI][demo-tooltip-ui] [[ref][ref-tooltip-ui]]                            |                                                                                         |                                                                            |
 | 🎉 [Simple Tabs][demo-simple-tabs] [[ref][ref-simple-tabs]]                         |                                                                                         |                                                                            |
 | 🎉 [Cookie Consent][demo-cookie-consent] [[ref][ref-cookie-consent]]                |                                                                                         |                                                                            |
@@ -86,7 +86,7 @@ This is roadmap.sh Projects Ideas and Solutions I have done!
 [ref-quiz-app]: https://roadmap.sh/projects/quiz-app
 [demo-quiz-app]: https://pine1611.github.io/frontend-projects/22-quiz-app/public
 [ref-weather-app]: https://roadmap.sh/projects/weather-app
-[demo-weather-app]: https://pine1611.github.io/frontend-projects/
+[demo-weather-app]: https://pine1611.github.io/frontend-projects/23-weather-app/public
 [ref-stories-feature]: https://roadmap.sh/projects/stories-feature
 [demo-stories-feature]: https://pine1611.github.io/frontend-projects/
 [Backend Projects]: https://github.com/Pine1611/backend-projects/blob/main/README.md
